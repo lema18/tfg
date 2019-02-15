@@ -5,7 +5,7 @@ El programa hace lo siguiente:
 3)Realiza el matching entre los puntos característicos de dos frames consecutivos.
 4)Calcula la matriz esencial.
 5)Obtiene la rotación y traslación entre dos frames consecutivos a través de la matriz esencial
-6)si se trata de las dos primera capturas se actualiza la posición de la cámara y se calculan por triangulación
+6)si se trata de las dos primeras capturas se actualiza la posición de la cámara y se calculan por triangulación
 los primeros puntos 3d de la nube.Si no se procede a obtener unos puntos 3d provisionales por triangulación
 que se utilizarán para el cómputo de la escala relativa.
 7)Si se trata de las dos primeras imágenes actualiza la nube de puntos 3d.
