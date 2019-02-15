@@ -137,7 +137,7 @@ void update_3d_points(Mat point3d_homo,vector<p3dant>& nube,vector<int> curr_use
             nube.push_back(mipt);
         }
     }
-    else //when we have to check if we have the same 3d points and calculate scale for recalculate de 3d point
+    else //when we have to check if we have the same 3d points
     {
         vector<int> betos;
         visitado++;
