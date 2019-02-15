@@ -158,14 +158,14 @@ void update_3d_points(Mat point3d_homo,vector<p3dant>& nube,vector<int> curr_use
             {
                 if(nube[j].curr_index==mipt.prev_index && only1==0)
                 {
-                    //we update existent point and we take their previous values to compute scale
+                    //we update existent points and we take their previous values to compute scale
                     p3d_prev.push_back(nube[j].punto);
                     p3d_curr.push_back(mipt.punto);
                     nube[j].punto+=mipt.punto;
                     nube[j].punto/=2;
                     betos.push_back(1);
                     nube[j].visitado=visitado;
-                    //we update de index for next iteration
+                    //we update the index for next iteration
                     nube[j].curr_index=mipt.curr_index;
                     nube[j].prev_index=mipt.prev_index;
                     flag=1;
