@@ -34,4 +34,4 @@ triangulaciones.
 He probado a aumentar la distancia entre capturas tomando solo algunas de las imágenes y aun así no obtengo resultados 
 coherentes.
 
-La aplicación debe estar en el mismo directorio que las imágenes del DATASET 
+La aplicación debe estar en el mismo directorio que las imágenes del DATASET.Como argumento de entrada se le pasa el salto entre fotos.
