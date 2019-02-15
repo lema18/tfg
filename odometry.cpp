@@ -193,7 +193,7 @@ int main(int argc,char **argv)
 		//curr_points3d.clear();
 		point3d_homo.release();
 	}
-	//update_cloud(nube,cloud,viewer,id);
+	update_cloud(nube,cloud,viewer,id);
 	while (!viewer.wasStopped ())
 	{
 		viewer.spin();
